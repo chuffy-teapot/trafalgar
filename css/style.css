@@ -1,0 +1,303 @@
+body {
+  font-family: 'Mulish', sans-serif;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.menu {
+  display: flex;
+  margin-left: auto;
+}
+
+.top {
+  display: flex;
+}
+
+.top li {
+  list-style: none;
+  margin-left: 40px;
+}
+
+.top li a {
+  text-decoration: none;
+  color: black;
+}
+
+.item {
+  opacity: .5;
+}
+
+.section1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section1_title {
+  width: 400px;
+}
+
+.section1 h1 {
+  font-size: 45px;
+  margin-top: 200px;
+}
+
+.button1 {
+  text-decoration: none;
+  color: white;
+  background-color: #458FF6;
+  padding: 10px 20px;
+  border-radius: 50px;
+  margin-top: 100px;
+}
+
+.section1_text {
+  opacity: .5;
+}
+
+
+
+
+.service {
+  text-align: center;
+  font-size: 24px;
+}
+
+hr {
+  width: 60px;
+}
+
+.service_text {
+  font-size: 18px;
+  opacity: .5;
+  width: 900px;
+  display: inline-block;
+}
+
+.as{
+  width: 1200px;
+  text-align: center;
+}
+.tablet {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+}
+
+
+.tablet li {
+  width: 300px;
+  font-size: 24px;
+  margin: auto;
+  display:inline-block;
+}
+
+.tablet li p {
+  color: gray;
+  font-size: 18px;
+}
+
+.button2 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #458FF6;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #458FF6;
+}
+
+.btn {
+  display: flex;
+}
+
+.leading_dad {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.leading {
+  width: 450px;
+  font-size: 18px;
+  color: gray;
+  margin-left: auto;
+}
+
+.leading h3 {
+  font-size: 24px;
+  color: #000;
+}
+
+.leading hr {
+  display: inline-block;
+}
+
+.leading a {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  color: #458FF6;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-top: 50px;
+  border: 2px solid #458FF6;
+}
+
+.apps_dad {
+  width: 1200px;
+  display: flex;
+  justify-content: space-between
+}
+
+.apps {
+  width: 450px;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 18px;
+  color: gray;
+}
+
+.apps h4 {
+  font-size: 24px;
+  color: #000;
+}
+
+.apps hr {
+  display: inline-block;
+}
+
+.apps a {
+  display: inline-block;
+  background-color: #fff;
+  text-decoration: none;
+  color: #458FF6;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 50px 0;
+  border: 2px solid #458FF6;
+}
+
+.customers_dad {
+  display: flex;
+  margin: 50px 0;
+  margin-bottom: 100px;
+  width: 1200px;
+  height: 400px;
+  background-color: #67C3F3;
+  color: white;
+  border-radius: 25px;
+}
+
+.customers {
+  margin: 50px auto;
+}
+
+.customers h5 {
+  font-size: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+.customers_text {
+  display: inline-block;
+}
+
+.customers blockquote {
+  font-size: 18px;
+  margin: 0;
+  width: 420px;
+  display: inline-block;
+  margin-left: 80px;
+}
+
+
+.article h6 {
+  font-size: 30px;
+  text-align: center;
+  margin: 10px;
+}
+
+.article_link {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.article li {
+  list-style: none;
+  display: inline-block;
+  width: 350px;
+  margin-bottom: 100px;
+}
+
+.article a{
+  text-decoration: none;
+  color: #458FF6;
+  font-size: 18;
+}
+
+.btn3{
+  text-align: center;
+}
+.button3 {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #458FF6;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin: 50px 0;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #458FF6;
+}
+
+
+
+.footer {
+  background-color: #458FF6;
+  color: white;
+  height: 300px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer_inner{
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.footer_title {
+  width: 350px;
+}
+
+.footer_menu{
+  padding: 0;
+  margin: 0;
+}
+.footer ul {
+  display: inline-block;
+}
+
+.footer li {
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  margin-left: 50px;
+}
+
+.footer li a {
+  text-decoration: none;
+  color: white;
+  opacity: .9;
+}
